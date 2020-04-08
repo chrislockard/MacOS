@@ -5,13 +5,13 @@ source "https://rubygems.org"
 git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 
 # Cocoapods
-gem 'cocoapods'
-gem 'cocoapods-deintegrate'
+#gem 'cocoapods'
+#gem 'cocoapods-deintegrate'
 
 # Web
-gem 'jekyll'
+#gem 'jekyll'
 
 # Fastlane
-gem 'fastlane'
-gem 'gym'
-gem 'match'
+#gem 'fastlane'
+#gem 'gym'
+#gem 'match'

@@ -19,6 +19,7 @@ process_option() {
       source scripts/dev.sh
       source scripts/git.sh
       source scripts/ssh.sh
+      source scripts/dotfiles.sh
       break;;
     'brew')
       brew bundle
@@ -28,6 +29,9 @@ process_option() {
       break;;
     'dev')
       source scripts/dev.sh
+      break;;
+    'dotfiles')
+      source scripts/dotfiles.sh
       break;;
     'gem')
       bundle install
@@ -62,6 +66,7 @@ while true; do
     echo ""
     echo "      all:  Install everything"
     echo "     brew:  Install packages & applications from Brewfile"
+    echo " dotfiles:  Install dotfiles"
     echo "   config:  Configure macOS"
     echo "      dev:  Configure development environment"
     echo "      gem:  Install packages from Gemfile"
