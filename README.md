@@ -1,9 +1,6 @@
-# OS X Setup Script
+# MacOS Setup
 
-This repository contains scripts that can be used to setup a brand new
-MacBook within minutes. It applies OSX settings, installs applications
-and npm packages and can even configure your SSH keys.
-
+Forked from Daniel Saidi's [OSX Configuration Script](https://github.com/danielsaidi/osx) 
 
 ## How to use it
 

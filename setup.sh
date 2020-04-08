@@ -55,7 +55,7 @@ while true; do
   if [[ $# == 0 ]]; then
     echo ""
     echo "******************"
-    echo "    Setup OS X    "
+    echo "   Setup MacOS    "
     echo "******************"
     echo ""
     echo "Available commands:"
